@@ -33,7 +33,7 @@ module.exports = {
 
     // ✅ ONLY EXACT MATCH /rules
     const text = (event.body || "").trim().toLowerCase();
-    if (text !== "/rules") return;
+    if (text !== "/sstime") return;
 
     const mentionedIDs = Object.keys(event.mentions || {});
 
