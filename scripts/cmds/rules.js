@@ -97,12 +97,12 @@ module.exports = {
 ‎⚠️⚠️..... কোনো কারনে রিমুভ হলে  এডমিন দোষি না.... বিনা কারনে কাউকে রিমুভ করা হবে না🌺 ✅
 ‎═════════════════════
 ‎✦───────────────────✦
-‎          ∙──༅༎ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑 ༎༅──∙
+‎         ∙──༅༎ 𝐌𝐔𝐒𝐈𝐂-𝐁𝐎𝐓 ༎༅──∙
 ‎✦───────────────────✦`
     ];
 
     const captionText = captions[Math.floor(Math.random() * captions.length)];
-    const caption = `『 ${captionText} 』`;
+    const caption = ` ${captionText} `;
 
     try {
       // ⚡ Fast Image Fetch
