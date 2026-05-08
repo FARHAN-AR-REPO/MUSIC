@@ -13,7 +13,7 @@ login.loginCookieNetscape=𝐋𝐨𝐠𝐢𝐧 𝐰𝐢𝐭𝐡 𝐜𝐨𝐨𝐤
 login.loginCookieArray=𝐋𝐨𝐠𝐢𝐧 𝐰𝐢𝐭𝐡 𝐜𝐨𝐨𝐤𝐢𝐞 𝐚𝐫𝐫𝐚𝐲
 login.loginPassword=𝐋𝐨𝐠𝐢𝐧 𝐰𝐢𝐭𝐡 𝐞𝐦𝐚𝐢𝐥 & 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝...
 login.accountError=𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐟𝐮𝐥𝐥 𝐩𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐭𝐨𝐤𝐞𝐧 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐫𝐦 𝐨𝐟 %1 𝐨𝐫 𝐜𝐨𝐨𝐤𝐢𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐫𝐦 𝐨𝐟 %2 𝐨𝐫 𝐜𝐨𝐨𝐤𝐢𝐞 𝐢𝐧 𝐭𝐡𝐞 𝐟𝐨𝐫𝐦 𝐨𝐟 𝐚𝐫𝐫𝐚𝐲:
-[\n  { name: %3, value: %4 },\n  { name: %5, value: %6 }\n]\n 𝐢𝐧𝐭𝐨 𝐭𝐡𝐞 𝐟𝐢𝐥𝐞 %7
+[\n  { name: %3, value: %4 },\n  { name: %5, value: %6 }\n]\n 𝐨𝐫\n[\n  { key: %3, value: %4 },\n  { key: %5, value: %6 }\n]\n𝐢𝐧𝐭𝐨 𝐭𝐡𝐞 𝐟𝐢𝐥𝐞 %7
 login.cannotFindAccount=𝐂𝐚𝐧𝐧𝐨𝐭 𝐟𝐢𝐧𝐝 𝐟𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐚𝐜𝐜𝐨𝐮𝐧𝐭, 𝐜𝐡𝐨𝐨𝐬𝐞 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐟𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠 𝐨𝐩𝐭𝐢𝐨𝐧𝐬 (𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐧𝐮𝐦𝐛𝐞𝐫 𝐭𝐨 𝐜𝐡𝐨𝐨𝐬𝐞 𝐨𝐫 𝐩𝐫𝐞𝐬𝐬 𝐝𝐨𝐰𝐧 𝐚𝐧𝐝 𝐮𝐩 𝐭𝐨 𝐜𝐡𝐨𝐨𝐬𝐞 𝐚𝐧𝐝 𝐞𝐧𝐭𝐞𝐫 𝐭𝐨 𝐜𝐨𝐧𝐟𝐢𝐫𝐦):
 login.chooseAccount=𝐋𝐨𝐠𝐢𝐧 𝐰𝐢𝐭𝐡 𝐞𝐦𝐚𝐢𝐥 𝐚𝐧𝐝 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝
 login.chooseToken=𝐋𝐨𝐠𝐢𝐧 𝐰𝐢𝐭𝐡 𝐭𝐨𝐤𝐞𝐧 𝐟𝐮𝐥𝐥 𝐩𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧
@@ -106,6 +106,14 @@ handlerEvents.onlyAdminBot2ToUseOnReply=⚠️ 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧
 handlerEvents.onlyAdminBot2ToUseOnReaction=⚠️ 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 𝐑𝐞𝐚𝐜𝐭 𝐎𝐧𝐥𝐲\n» 𝐑𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐨𝐧 "%1" 𝐢𝐬 𝐫𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝.
 handlerEvents.waitingForCommand=⏳ 𝐂𝐨𝐨𝐥𝐝𝐨𝐰𝐧 𝐀𝐜𝐭𝐢𝐯𝐞\n» 𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 %1𝐬 𝐛𝐞𝐟𝐨𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐚𝐠𝐚𝐢𝐧.
 handlerEvents.errorOccurred=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐂𝐦𝐝 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred2=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐂𝐡𝐚𝐭 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred3=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐑𝐞𝐩𝐥𝐲 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred4=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐑𝐞𝐚𝐜𝐭𝐢𝐨𝐧 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred5=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐄𝐯𝐞𝐧𝐭 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred6=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐄𝐯𝐞𝐧𝐭 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.errorOccurred7=💢 𝐄𝐫𝐫𝐨𝐫 𝐃𝐞𝐭𝐞𝐜𝐭𝐞𝐝 [ %1 ]\n╔══════════════════╗\n  𝐨𝐧𝐀𝐧𝐲𝐄𝐯𝐞𝐧𝐭 : "%2"\n╚══════════════════╝\n%3
+handlerEvents.cannotFindCommandName=❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐭𝐨 𝐄𝐱𝐞𝐜𝐮𝐭𝐞\n» 𝐂𝐚𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐧𝐚𝐦𝐞 𝐟𝐨𝐫 𝐫𝐞𝐩𝐥𝐲!
+handlerEvents.cannotFindCommand=❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐭𝐨 𝐄𝐱𝐞𝐜𝐮𝐭𝐞\n» 𝐂𝐚𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 "%1" 𝐟𝐨𝐫 𝐫𝐞𝐩𝐥𝐲!
 
 # bot/autoUptime.js
 autoUptime.autoUptimeTurnedOn=𝐀𝐮𝐭𝐨𝐔𝐩𝐭𝐢𝐦𝐞 𝐦𝐨𝐝𝐞 𝐭𝐮𝐫𝐧𝐞𝐝 𝐨𝐧
@@ -121,6 +129,7 @@ indexController.connectMySQLError=𝐀𝐧 𝐞𝐫𝐫𝐨𝐫 𝐨𝐜𝐜𝐮
 # updater.js
 updater.updateTooFast=𝐏𝐥𝐞𝐚𝐬𝐞 𝐰𝐚𝐢𝐭 𝐚𝐭 𝐥𝐞𝐚𝐬𝐭 𝟓 𝐦𝐢𝐧𝐮𝐭𝐞𝐬 𝐚𝐟𝐭𝐞𝐫 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐜𝐨𝐦𝐦𝐢𝐭 𝐭𝐨 𝐮𝐩𝐝𝐚𝐭𝐞 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐞𝐫𝐫𝐨𝐫, %1 𝐦𝐢𝐧𝐮𝐭𝐞𝐬 %2 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐥𝐞𝐟𝐭
 updater.latestVersion=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧
+updater.cantFindVersion=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐚𝐧 𝐮𝐧𝐝𝐞𝐟𝐢𝐧𝐞𝐝 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 (%1), 𝐩𝐥𝐞𝐚𝐬𝐞 𝐜𝐡𝐞𝐜𝐤 𝐲𝐨𝐮𝐫 𝐩𝐚𝐜𝐤𝐚𝐠𝐞.𝐣𝐬𝐨𝐧 𝐟𝐢𝐥𝐞 𝐚𝐠𝐚𝐢𝐧
 updater.newVersions=𝐓𝐡𝐞𝐫𝐞 𝐚𝐫𝐞 %1 𝐧𝐞𝐰 𝐯𝐞𝐫𝐬𝐢𝐨𝐧𝐬 𝐭𝐨 𝐮𝐩𝐝𝐚𝐭𝐞, 𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐭𝐨 𝐮𝐩𝐝𝐚𝐭𝐞...
 updater.updateSuccess=𝐔𝐩𝐝𝐚𝐭𝐞 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥%1
 
