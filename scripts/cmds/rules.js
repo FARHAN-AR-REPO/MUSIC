@@ -46,7 +46,7 @@ module.exports = {
 
     // 🖼️ Image list
     const images = [
-      "https://i.imgur.com/zHivkUd.jpeg"
+      "https://i.imgur.com/jh45907.jpeg"
     ];
 
     const imageUrl = images[imageIndex];
@@ -58,7 +58,7 @@ module.exports = {
 ‎        ⚠️❌ 𝐑𝐔𝐋𝐄𝐒 𝐅𝐎𝐑 ❌⚠️
 ‎╚═══════════════════╝
 ‎                          👇👇
-‎••═╬🔥𝐏𝐑𝐄𝐌✦🌻IK🔥✦𝐏𝐀KHI🔥✦🅰𝐋𝐋🔥✦MUSIC✦🌻BAND🔥╬═••࿐
+‎⎯͢♡⸙𝐁𝐋𝐀𝐂𝐊💠𝐒𝐓𝐀𝐑💠𝐀𝐋𝐋💠𝐂𝐄𝐎💠𝐁𝐎𝐗✺❥᭄
 ‎✦───────────────────✦
 ‎          𝐆𝐫𝐨𝐮𝐩 এ চলার নিয়ম👇👇  
 ‎✦───────────────────✦
